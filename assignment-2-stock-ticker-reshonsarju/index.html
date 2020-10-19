@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Stock Symbol Application</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+<link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+
+<link rel="stylesheet" href="css/extra.css">
+</head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <!-- Add your site or application content here -->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+      <a class="navbar-brand" href="#">Stock Ticker App</a>
+    </nav>
+
+    <div class="container my-4">
+    <form class="frm symbol text-center border border-light p-5" action="#!">
+
+      <div class="md-form">
+      <label for="symbol">Ticker Symbol</label>
+      <input class="form-control mb-4" type="text" id="symbol" name="symbol" />
+    </div>
+    
+      <button class="btn btn-info btn-block my-4" type="submit">View</button>
+    </form>
+
+    <section class="stock-display my-4">
+      <h1 class="card-header info-color white-text text-center py-4">Stock Viewer</h1>
+      <div class="details">symbol: <span class="symbol"></span> <span class="date"></span></div>
+      <div class="details">price: <span class="price"></span></div>
+    </section>
+    </div>
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+  </body>
+</html>

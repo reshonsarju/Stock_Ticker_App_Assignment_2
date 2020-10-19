@@ -1,0 +1,15 @@
+$background: #212121;
+$border: #d3d3d3;
+@mixin card {
+    padding: 1rem;
+    border: 1px solid $border;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+body{
+    background-color: $background;
+    .stock-display{
+        @include card;
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "assignment-01-sample-soln",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel js/main.es6.js -o js/main.js",
+    "build-sass": "npx node-sass sass/extra.scss css/extra.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-plugin-iife-wrap": "^1.1.0",
+    "eslint": "^7.11.0",
+    "node-sass": "^4.14.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "iife-wrap"
+    ]
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.2.0",
+    "mdbootstrap": "^4.19.1"
+  }
+}
